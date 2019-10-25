@@ -31,7 +31,7 @@ def main():
     # setup the parameters of the message
     msg['From']=es
     msg['To']=er
-    msg['Subject']="hello"
+    msg['Subject']="helloooooooooooooooooooooooooo"
 
     # add in the message body
     msg.attach(MIMEText(message, 'plain'))
