@@ -7,7 +7,7 @@ from email.mime.text import MIMEText
 def main():
 
 
-    print("reciever details:\n")
+    print("reciever detailssss:\n")
     er= input("email id:")
     pr=getpass.getpass()
 
