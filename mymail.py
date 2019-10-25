@@ -14,7 +14,7 @@ def main():
     # set up the SMTP server
     s = smtplib.SMTP(host='smtp.gmail.com', port=587)
     s.starttls()
-    print("sender details:\n")
+    print("sender details::::\n")
     es=input("email id: ")
     ps=getpass.getpass()
     s.login(es,ps)
