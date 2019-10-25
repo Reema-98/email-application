@@ -14,7 +14,7 @@ def main():
     # set up the SMTP server
     s = smtplib.SMTP(host='smtp.gmail.com', port=587)
     s.starttls()
-    print("sender details:\n")
+    print("sender details::::\n")
     es=input("email id: ")
     ps=getpass.getpass()
     s.login(es,ps)
@@ -31,7 +31,7 @@ def main():
     # setup the parameters of the message
     msg['From']=es
     msg['To']=er
-    msg['Subject']="hello"
+    msg['Subject']="helloooooooooooooooooooooo"
 
     # add in the message body
     msg.attach(MIMEText(message, 'plain'))
