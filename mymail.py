@@ -23,15 +23,15 @@ def main():
     msg = MIMEMultipart()       # create a message
 
     # add in the actual person name to the message template
-    message = "hi this is reema"
+    message = "Hey, this is an automated mail sent using python"
 
     # Prints out the message body for our sake
     print(message)
 
     # setup the parameters of the message
-    msg['From']=es
-    msg['To']=er
-    msg['Subject']="hello"
+    msg['From']=sender
+    msg['To']=receiver
+    msg['Subject']="This is a sample message"
 
     # add in the message body
     msg.attach(MIMEText(message, 'plain'))
