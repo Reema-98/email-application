@@ -23,7 +23,7 @@ def main():
     msg = MIMEMultipart()       # create a message
 
     # add in the actual person name to the message template
-    message = "hi this is reema"
+    message = "hi this is ReemaSEbi <3 Varshini"
 
     # Prints out the message body for our sake
     print(message)
