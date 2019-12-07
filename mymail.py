@@ -7,8 +7,8 @@ from email.mime.text import MIMEText
 def main():
 
 
-    print("reciever details:\n")
-    er= input("email id:")
+    print("reciever details:::::::::::::::\n")
+    er= input("email id:::::::::::::::::::")
     pr=getpass.getpass()
 
     # set up the SMTP server
