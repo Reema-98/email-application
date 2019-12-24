@@ -7,8 +7,8 @@ from email.mime.text import MIMEText
 def main():
 
 
-    print("reciever details:\n")
-    er= input("email id:")
+    print("reciever details:::::::::::::::\n")
+    er= input("email id:::::::::::::::::::")
     pr=getpass.getpass()
 
     # set up the SMTP server
@@ -31,7 +31,7 @@ def main():
     # setup the parameters of the message
     msg['From']=es
     msg['To']=er
-    msg['Subject']="hello"
+    msg['Subject']="helloooooooooooooooooooooo"
 
     # add in the message body
     msg.attach(MIMEText(message, 'plain'))
